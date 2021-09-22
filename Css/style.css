@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffc24b;
+  font-family: "Lato", sans-serif;
+}
+.hero__section {
+}
+img {
+  color: #1697a6;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #2a9d8f;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+}
+a {
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #ffff;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 3.2rem;
+}
+ul {
+  margin-left: auto;
+}
+li {
+  display: inline;
+  margin-left: 6rem;
+}
