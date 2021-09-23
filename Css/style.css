@@ -53,5 +53,15 @@ li {
   margin-left: 6rem;
 }
 .get-started-btn {
-  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  font-weight: bold;
+  background-color: #2a9d8f;
+  color: #fff;
+}
+.get-started-btn:hover {
+  cursor: pointer;
+  opacity: 85%;
 }
