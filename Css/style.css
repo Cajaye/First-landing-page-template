@@ -24,7 +24,7 @@ img {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2.5px;
+  height: 2.6px;
   bottom: 0;
   left: 0;
   background-color: #2a9d8f;
@@ -50,7 +50,7 @@ ul {
 }
 li {
   display: inline;
-  margin-left: 6rem;
+  margin: 0 2.5rem 0 2.5rem;
 }
 .get-started-btn {
   border-radius: 4px;
